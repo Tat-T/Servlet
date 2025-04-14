@@ -15,7 +15,7 @@ public class Main extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        response.setContentType("text/html;charset=UTF-8");
+      // response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter();) {
             out.println("<h1>Hello world</h1>");
         }
